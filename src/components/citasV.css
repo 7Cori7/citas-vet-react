@@ -1,0 +1,330 @@
+.citas-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(67,156,215);
+    background: linear-gradient(73deg, rgba(67,156,215,1) 0%, rgba(80,183,205,1) 52%, rgba(91,106,197,1) 100%);
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 50px 0;
+    font-family:'Segoe UI', sans-serif;
+    position: relative;
+}
+
+.citas-body .mensaje{
+    position: fixed;
+    top: 50px;
+    z-index: 9;
+    width: 30%;
+    height: 60px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+}
+
+.citas-body h1{
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.citas-body h3{
+    color: rgb(91,106,197);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.citas-body .citas-form{
+    background-color: white;
+    padding: 50px 50px;
+    border-radius: 5px;
+    display: flex;
+    gap: 100px;
+    width: 80%;
+    box-shadow: 11px 14px 19px -4px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 11px 14px 19px -4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 11px 14px 19px -4px rgba(0,0,0,0.45);
+    margin-bottom: 50px;
+}
+
+.citas-body .citas-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    width: 50%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.citas-body .citas-form form input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    width: 250px;
+    box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    cursor: pointer;
+}
+
+.citas-body .citas-form form textarea{
+    height: 100px;
+    width: 270px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    cursor: pointer;
+}
+
+.citas-body .citas-form form input:focus, textarea:focus{
+    outline: 1px solid rgb(67,156,215);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-text-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.citas-body form .btn-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.citas-body form button{
+    background-color: rgb(91,106,197);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    transition: all .5s ease-in-out;
+}
+
+.citas-body form button:hover{
+    background-color: rgb(67,156,215);
+    transform: scale(105%);
+}
+
+.bandeja-citas{
+    width: 50%;
+    height: 100%;
+}
+
+.cita-tarjeta{
+    width: 50%;
+    height: 100%;
+}
+
+.cita-tarjeta span{
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.cita-tarjeta .btns-row{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cita-tarjeta .btns-row button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    gap: 3px;
+    font-weight: bold;
+    box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    transition: all .5s ease-in-out;
+    text-align: center;
+}
+
+.cita-tarjeta .btns-row .eliminar{
+    background-color: red;
+}
+
+.cita-tarjeta .btns-row .editar{
+    background-color: rgb(73, 235, 87);
+}
+
+.cita-tarjeta .btns-row .eliminar:hover{
+    background-color: rgb(109, 0, 0);
+    transform: scale(102%);
+}
+
+.cita-tarjeta .btns-row .editar:hover{
+    background-color: rgb(47, 151, 56);
+    transform: scale(102%);
+}
+
+
+.cita-tarjeta .edit-contenedor{
+    margin: 20px 0;
+}
+
+.cita-tarjeta input{
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    width: 250px;
+    box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.cita-tarjeta textarea{
+    height: 100px;
+    width: 270px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    cursor: pointer;
+}
+
+.cita-tarjeta button{
+    background-color: rgb(73, 235, 87);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: -2px 14px 16px -13px rgba(0,0,0,0.53);
+    transition: all .5s ease-in-out;
+}
+
+.cita-tarjeta button:hover{
+    background-color: rgb(47, 151, 56);
+    transform: scale(105%);
+}
+
+
+@media (max-width: 768px){
+
+    .citas-body h1{
+        color: white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+
+    .citas-body .citas-form{
+        flex-direction: column;
+        gap: 100px;
+        width: 80%;
+        box-shadow: none;
+    }
+
+    .citas-body .citas-form form{
+        gap: 20px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+    .citas-body .citas-form form input{
+        padding: 20px 20px;
+        width: 100%;
+    }
+    
+    .citas-body .citas-form form textarea{
+        height: 100px;
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row label, .row-text-area label{
+        display: none;
+    }
+
+    .citas-body form button{
+        padding: 20px 30px;
+        width: 100%;
+    }
+
+    .bandeja-citas{
+        width: 100%;
+        margin: 50px 0;
+    }
+    
+    .cita-tarjeta{
+        width: 100%;
+        margin: 60px 0;
+    }
+
+    .cita-tarjeta .edit-contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cita-tarjeta button{
+        padding: 20px 40px;
+        margin-top: 20px;
+    }
+
+    .citas-body .mensaje{
+        position: fixed;
+        top: 10%;
+        width: 80%;
+    }
+}
+
+
+
