@@ -1,8 +1,11 @@
-# React + Vite
+# Citas Veterinarias
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un ejercicio que hice para probar hacer una app de reservación de citas veterinarias con REACT y Vite.
 
-Currently, two official plugins are available:
+El ejercicio basicamente realiza operaciones CRUD para crear una cita (llenando un formulario), imprimirla en pantalla, se puede editar y borrar si se desea.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Y eso es todo 💕
+
+El demo está hosteado en Netlify y lo puedes probar aquí --> https://citas-vet-corina.netlify.app/
+
+
